@@ -77,7 +77,7 @@ public class SearchCore {
 	public static void initiate() {
 		AWSCredentials credentials = null;
 		try {
-			credentials = new BasicAWSCredentials("AKIAIHUI4TYZHGRCKGZA", "SEa/xtrE1pCCfp//POs4Gw2+GrDVyk/Z1Gs58zon");
+			credentials = new BasicAWSCredentials("test", "test");
 		} catch (Exception e) {
 			System.out.println("credentials invalid!");
 		}
