@@ -86,7 +86,7 @@ public class SearchCore {
 		s3.setRegion(usStandard);
 
 		try {
-			credentials = new BasicAWSCredentials("AKIAI47DLVDOC76U7XAQ", "x8/vLvuePAi/9+9gl9WdGCMe4gRFvJY6bAMLYS14");
+			credentials = new BasicAWSCredentials("test", "test");
 		} catch (Exception e) {
 			System.out.println("credentials invalid!");
 		}
