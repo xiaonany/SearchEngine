@@ -6,7 +6,7 @@ import java.util.Map;
 
 import opennlp.tools.stemmer.snowball.SnowballStemmer;
 import opennlp.tools.stemmer.snowball.SnowballStemmer.ALGORITHM;
-import searchengine.SearchCore;
+import SearchCore;
 import spark.ModelAndView;
 import spark.Spark;
 import spark.template.jade.JadeTemplateEngine;
